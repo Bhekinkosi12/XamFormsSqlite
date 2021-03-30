@@ -38,7 +38,7 @@ namespace XamFormsSqlite.ViewModels
 
             usuario = GetUser();
 
-            Nome = usuario.Nome + "(" + usuario.Contador + ")";
+            Nome = usuario.Nome + @"(" + usuario.Contador + ")";
         }
 
         private static Usuario GetUser()
